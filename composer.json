@@ -1,0 +1,26 @@
+{
+    "name": "bepark/laravel-route-controller",
+    "description": "Extends laravel routing to add route::controller back on laravel",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "BePark Tech Team",
+            "email": "it+oss@bepark.eu"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "BePark\\Libs\\Laravel\\RouteController\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "~5.4"
+    },
+    "config": {
+        "platform": {
+            "php": "7.1"
+        },
+        "sort-packages": true
+    }
+}
