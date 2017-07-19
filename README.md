@@ -2,6 +2,8 @@
 
 Get back the possibility to define Route::controller() inside laravel routes.
 
+Deprecated see https://github.com/shrimpwagon/laravel-route-controller
+
 ## Usage
 ```php
 // in the routes/web.php
